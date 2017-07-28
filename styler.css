@@ -1,0 +1,39 @@
+div[class^="container"]{
+  border: 1px;
+  margin-top: 3%;
+}
+
+div[class^=xs]{
+  color:black;
+  text-decoration: underline;
+  text-align: center;
+}
+div[class^=col-xs-1]{
+  text-align: center;
+}
+div[class^=xss]{
+  text-align: center;
+  background: #8a8a8a;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#title{
+text-align: center;
+}
+
+#subtitulo{
+text-align: center;
+}
+
+#texto1{
+font-size: 100%;
+text-align: center !important;
+}
+
+#texto2{
+font-size: 100%;
+text-align: center;
+}
