@@ -21,18 +21,34 @@ div[class^=xss]{
 }
 
 #title{
-text-align: center;
+align: center;
+}
+
+#logo{
+    display: block;
+    margin: 0 auto;
 }
 
 #subtitulo{
 text-align: center;
 }
 
-#texto1{
 
+#texto1{
+text-align: center !important;
 }
 
 #texto2{
  text-align: center;
 font-size: 200%;
+}
+
+#bg{
+  background-image: url(bg.png);
+}
+
+#subinfo{
+  display: block;
+  margin: 0 auto;
+  text-align: justify;
 }
